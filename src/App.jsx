@@ -78,7 +78,7 @@ function App() {
               <div className="namaPengantin">
                 <h1>Ading &amp; Aisyah</h1>
                 <div className="kepada">
-                  <p>Sabtu, 20 September 2025</p>
+                  <p>Sabtu, 07 September 2025</p>
                   <hr />
                   <p>Kepada Yth. Bapak/Ibu/Sdr/i</p>
                   <strong>{decodeURIComponent(namaTamu)}</strong>
