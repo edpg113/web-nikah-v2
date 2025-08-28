@@ -9,7 +9,7 @@
 }
 body {
   font-family: "Libertinus Serif Display", system-ui;
-  background-color: #f0f0f0;
+  /* background-color: #f0f0f0; */
   margin: 0;
   padding: 0;
 }
@@ -18,7 +18,7 @@ body {
   width: 100%;
   max-width: 430px;   /* ukuran “layar HP” */
   margin: 0 auto;     /* center horizontal */
-  background: #fff;
+  /* background: #fff; */
   min-height: 100vh;  /* isi bisa nambah panjang */
 }
 
@@ -111,7 +111,7 @@ body {
   .quotes {
     .bg-quotes {
       /* background: url("./assets/bingkai1.jpg"); */
-      background: white;
+      background: rgb(255, 255, 255);
       background-position: center;
       background-size: cover;
       height: 50vh;
@@ -158,7 +158,7 @@ body {
   .pengantin {
     .bg-pengantin {
       /* background: url("./assets//bingkai2.jpg"); */
-      background: rgba(255, 255, 255, 0.623);
+      background: rgb(248, 248, 248);
       background-position: center;
       background-size: cover;
       height: 125vh;
@@ -244,6 +244,8 @@ body {
     width: 100%;
     height: 100vh;
     overflow: hidden;
+      background: rgb(248, 248, 248);
+
     .bg-acara {
       background: url("./assets/prewed(5).jpg");
       /* background: rgba(255, 255, 255, 0.623); */
@@ -317,7 +319,9 @@ body {
     /* background-position: center; */
     /* background-size: cover; */
     /* min-height: 100vh; */
-    background: rgba(255, 255, 255, 0);
+    /* background: rgba(255, 255, 255, 0); */
+      background: rgb(248, 248, 248);
+
     width: 100%;
   }
 
@@ -412,6 +416,8 @@ body {
     .bg-galery {
       /* background: url("./assets/bingkai2.jpg"); */
       background-position: center;
+      background: rgb(248, 248, 248);
+
       background-size: cover;
       height: 100vh;
       width: 100%;
@@ -436,6 +442,8 @@ body {
     .bg-gift {
       /* background: url("./assets/bingkai2.jpg"); */
       background-position: center;
+      background: rgb(248, 248, 248);
+
       background-size: cover;
       height: 100vh;
       width: 100%;
