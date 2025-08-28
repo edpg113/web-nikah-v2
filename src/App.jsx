@@ -237,8 +237,7 @@ function App() {
                     Pertama kali jumpa
                   </p>
                   <span data-aos="fade-zoom-in" data-aos-delay="600">
-                    <time>Kamis 12 Oktober 2019</time> Saat itu kami bertemu
-                    pertama kali di sebuah acara sederhana.
+                    <time>Diawal tahun 2020</time> saat itu pertamakali bertemu dijalan dan dipertemukan kembali di sebuah komunitas Sadulur
                   </span>
                 </div>
               </li>
@@ -248,8 +247,7 @@ function App() {
                     Mulai dekat
                   </p>
                   <span data-aos="fade-zoom-in" data-aos-delay="600">
-                    <time>Sabtu 25 Januari 2020</time> Kami mulai sering berbagi
-                    cerita satu sama lain.
+                    <time>Bulan Juli 2020</time> Disaat komunikasi buat acara kecurug Cisadane, disinilah kami mulai sering berbagi cerita satu sama lain dan kami mulai menjalin hubungan, ditahun 2021 sampai ditahun 2023 kami sempat berpisah dan kami bersatu kembali dan memutuskan untuk kejenjang yg lebih serius
                   </span>
                 </div>
               </li>
@@ -259,8 +257,7 @@ function App() {
                     Komitmen bersama
                   </p>
                   <span data-aos="fade-zoom-in" data-aos-delay="600">
-                    <time>Minggu 14 Februari 2021</time> Hari dimana kami
-                    sepakat untuk melangkah lebih serius.
+                    <time>Bulan Mei 2024</time> Kami memutuskan untuk tunangan, pertemuan kedua belah fihak keluarga
                   </span>
                 </div>
               </li>
@@ -268,8 +265,7 @@ function App() {
                 <div data-aos="fade-zoom-in" data-aos-delay="400">
                   <p>Lamaran</p>
                   <span data-aos="fade-zoom-in" data-aos-delay="600">
-                    <time>Minggu 30 Maret 2025</time> Momen bersejarah saat
-                    keluarga bertemu dan doa restu diberikan.
+                    <time>08 Juni 2025</time> Menjadi momen bersejarah kami sepakat untuk mempertemukan kembali dua belah fihak keluarga untuk meminta doa restu dan menentukan pernikahan
                   </span>
                 </div>
               </li>
