@@ -453,7 +453,7 @@ body {
         h1 {
           /* font-family: "Cinzel Decorative"; */
           font-weight: 300;
-          font-size: 1.5rem;
+          font-box-shadow: 2rem;
           color: rgba(58, 56, 57, 0.89);
         }
         p {
