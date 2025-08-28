@@ -98,7 +98,7 @@ function App() {
               Save Our Date
             </h1>
             <span data-aos="fade-up" data-aos-delay="600">
-              20.09.2025
+              07.09.2025
             </span>
             <h1
               className="namaPengantin2"
@@ -155,13 +155,13 @@ function App() {
                   Ading
                 </h2>
                 <h3 data-aos="fade-up" data-aos-delay="1000">
-                  Ading Ahmad
+                  Muhammad Herdiawan
                 </h3>
                 <p data-aos="fade-up" data-aos-delay="1200">
-                  Putra pertama dari Pasangan
+                  Putra Bungsu dari Pasangan
                 </p>
                 <h3 data-aos="fade-up" data-aos-delay="1300">
-                  Putra dari Bapak Rudi dan Ibu Siti
+                  Putra dari Bapak Hapid dan Alm. Ibu Upi
                 </h3>
               </div>
               <span>&</span>
@@ -170,13 +170,13 @@ function App() {
                   Iseh
                 </h2>
                 <h3 data-aos="fade-up" data-aos-delay="1000">
-                  Siti Aisyah
+                  Siti Aisah
                 </h3>
                 <p data-aos="fade-up" data-aos-delay="1200">
-                  Putri Bungsi dari Pasangan
+                  Putri Bungsu dari Pasangan
                 </p>
                 <h3 data-aos="fade-up" data-aos-delay="1300">
-                  Putri dari Bapak Ferdy dan Ibu Maya
+                  Putri dari Bapak Masum dan Ibu Idah
                 </h3>
               </div>
             </div>
@@ -193,12 +193,12 @@ function App() {
           </h1>
           <div className="acara-item" data-aos="fade-up" data-aos-delay="400">
             <h2>Akad Nikah</h2>
-            <p>Sabtu, 20 September 2025</p>
+            <p>Sabtu, 07 September 2025</p>
             <p>Pukul 09.00 WIB</p>
           </div>
           <div className="acara-item" data-aos="fade-up" data-aos-delay="600">
             <h2>Resepsi</h2>
-            <p>Sabtu, 20 September 2025</p>
+            <p>Sabtu, 07 September 2025</p>
             <p>Pukul 12.00 WIB</p>
           </div>
           <div className="acara-item" data-aos="fade-up" data-aos-delay="650">
