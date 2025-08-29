@@ -141,7 +141,11 @@ function App() {
                   data-aos="fade-zoom-in"
                   data-aos-duration="400"
                 >
-                  <img className="foto" src={Pria} alt="Pria" />
+                  <img
+                    className="foto"
+                    src={Pria}
+                    alt="Pria"
+                  />
                 </div>
                 <h2 data-aos="fade-up" data-aos-delay="200">
                   Ading
@@ -229,8 +233,7 @@ function App() {
                     Pertama kali jumpa
                   </p>
                   <span data-aos="fade-zoom-in" data-aos-delay="300">
-                    <time>Diawal tahun 2020</time> saat itu pertamakali bertemu
-                    dijalan dan dipertemukan kembali di sebuah komunitas Sadulur
+                    <time>Diawal tahun 2020</time> saat itu pertamakali bertemu dijalan dan dipertemukan kembali di sebuah komunitas Sadulur
                   </span>
                 </div>
               </li>
@@ -240,12 +243,7 @@ function App() {
                     Mulai dekat
                   </p>
                   <span data-aos="fade-zoom-in" data-aos-delay="300">
-                    <time>Bulan Juli 2020</time> Disaat komunikasi buat acara
-                    kecurug Cisadane, disinilah kami mulai sering berbagi cerita
-                    satu sama lain dan kami mulai menjalin hubungan, ditahun
-                    2021 sampai ditahun 2023 kami sempat berpisah dan kami
-                    bersatu kembali dan memutuskan untuk kejenjang yg lebih
-                    serius
+                    <time>Bulan Juli 2020</time> Disaat komunikasi buat acara kecurug Cisadane, disinilah kami mulai sering berbagi cerita satu sama lain dan kami mulai menjalin hubungan, ditahun 2021 sampai ditahun 2023 kami sempat berpisah dan kami bersatu kembali dan memutuskan untuk kejenjang yg lebih serius
                   </span>
                 </div>
               </li>
@@ -255,8 +253,7 @@ function App() {
                     Komitmen bersama
                   </p>
                   <span data-aos="fade-zoom-in" data-aos-delay="300">
-                    <time>Bulan Mei 2024</time> Kami memutuskan untuk tunangan,
-                    pertemuan kedua belah fihak keluarga
+                    <time>Bulan Mei 2024</time> Kami memutuskan untuk tunangan, pertemuan kedua belah fihak keluarga
                   </span>
                 </div>
               </li>
@@ -264,9 +261,7 @@ function App() {
                 <div data-aos="fade-zoom-in" data-aos-delay="200">
                   <p>Lamaran</p>
                   <span data-aos="fade-zoom-in" data-aos-delay="300">
-                    <time>08 Juni 2025</time> Menjadi momen bersejarah kami
-                    sepakat untuk mempertemukan kembali dua belah fihak keluarga
-                    untuk meminta doa restu dan menentukan pernikahan
+                    <time>08 Juni 2025</time> Menjadi momen bersejarah kami sepakat untuk mempertemukan kembali dua belah fihak keluarga untuk meminta doa restu dan menentukan pernikahan
                   </span>
                 </div>
               </li>
@@ -305,17 +300,15 @@ function App() {
             <div className="icon-bank" data-aos="fade-up" data-aos-delay="600">
               <img src={Dana} alt="Dana" />
               <div className="rekening">
-                <h3>
-                  Siti Aisah <br /> 085776089473
-                </h3>
+                <h3>Siti Aisah</h3>
+                <h3>085776089473</h3>
               </div>
             </div>
             <div className="icon-bank" data-aos="fade-up" data-aos-delay="800">
               <img src={Seabank} alt="Seabank" />
               <div className="rekening">
-                <h3>
-                  Siti Aisah <br /> 901943019899
-                </h3>
+                <h3>Siti Aisah</h3>
+                <h3>901943019899</h3>
               </div>
             </div>
           </div>
