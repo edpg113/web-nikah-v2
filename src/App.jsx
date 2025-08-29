@@ -6,8 +6,11 @@ import Carousel from "./components/Carousel";
 import Prewed1 from "./assets/prewed(4).jpg";
 import Prewed2 from "./assets/prewed(7).jpg";
 import Prewed3 from "./assets/prewed(8).jpg";
-import Mandiri from "./assets/mandiri.png";
-import Bca from "./assets/bca.png";
+import Prewed4 from "./assets/prewed(5).jpg";
+import Prewed5 from "./assets/prewed(3).jpg";
+import Prewed6 from "./assets/prewed(2).jpg";
+import Dana from "./assets/dana.png";
+import Seabank from "./assets/seabank.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -15,7 +18,7 @@ import MusicPlayer from "./components/Musik";
 import Backsound from "./audio/backsound pernikahan.m4a";
 import { useRef, useState } from "react";
 
-const foto = [Prewed1, Prewed2, Prewed3];
+const foto = [Prewed1, Prewed2, Prewed3, Prewed4, Prewed5, Prewed6];
 
 function App() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -146,36 +149,33 @@ function App() {
                     className="foto"
                     src={Pria}
                     alt="Pria"
-                    data-aos="fade-zoom-in"
-                    data-aos-easing="ease-in-back"
-                    data-aos-duration="2500"
                   />
                 </div>
-                <h2 data-aos="fade-up" data-aos-delay="800">
+                <h2 data-aos="fade-up" data-aos-delay="200">
                   Ading
                 </h2>
-                <h3 data-aos="fade-up" data-aos-delay="1000">
+                <h3 data-aos="fade-up" data-aos-delay="400">
                   Muhammad Herdiawan
                 </h3>
-                <p data-aos="fade-up" data-aos-delay="1200">
+                <p data-aos="fade-up" data-aos-delay="600">
                   Putra Bungsu dari Pasangan
                 </p>
-                <h3 data-aos="fade-up" data-aos-delay="1300">
+                <h3 data-aos="fade-up" data-aos-delay="700">
                   Putra dari Bapak Hapid dan Alm. Ibu Upi
                 </h3>
               </div>
               <span>&</span>
               <div className="pengantin-item" data-aos="fade-up">
-                <h2 data-aos="fade-up" data-aos-delay="800">
+                <h2 data-aos="fade-up" data-aos-delay="200">
                   Iseh
                 </h2>
-                <h3 data-aos="fade-up" data-aos-delay="1000">
+                <h3 data-aos="fade-up" data-aos-delay="400">
                   Siti Aisah
                 </h3>
-                <p data-aos="fade-up" data-aos-delay="1200">
+                <p data-aos="fade-up" data-aos-delay="600">
                   Putri Bungsu dari Pasangan
                 </p>
-                <h3 data-aos="fade-up" data-aos-delay="1300">
+                <h3 data-aos="fade-up" data-aos-delay="700">
                   Putri dari Bapak Masum dan Ibu Idah
                 </h3>
               </div>
@@ -201,7 +201,7 @@ function App() {
             <p>Sabtu, 07 September 2025</p>
             <p>Pukul 12.00 WIB</p>
           </div>
-          <div className="acara-item" data-aos="fade-up" data-aos-delay="650">
+          <div className="acara-item" data-aos="fade-up" data-aos-delay="610">
             <h2>Lokasi</h2>
             <p>Rumah Mempelai Wanita</p>
             <p>Jl. Bojong Keji, Rt 05/10, Bogor</p>
@@ -302,17 +302,17 @@ function App() {
               jika ingin memberikan hadiah, kami menerima dengan senang hati."
             </p>
             <div className="icon-bank" data-aos="fade-up" data-aos-delay="600">
-              <img src={Mandiri} alt="Mandiri" />
+              <img src={Dana} alt="Dana" />
               <div className="rekening">
-                <h3>Ading</h3>
-                <h3>123-456-7890</h3>
+                <h3>Siti Aisah</h3>
+                <h3>085776089473</h3>
               </div>
             </div>
             <div className="icon-bank" data-aos="fade-up" data-aos-delay="800">
-              <img src={Bca} alt="BCA" />
+              <img src={Seabank} alt="Seabank" />
               <div className="rekening">
                 <h3>Siti Aisah</h3>
-                <h3>098-765-4321</h3>
+                <h3>901943019899</h3>
               </div>
             </div>
           </div>

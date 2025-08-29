@@ -226,7 +226,7 @@ body {
             }
             .bg-foto:nth-child(2) {
               margin-left: 35%;
-              margin-top: -55%;
+              margin-top: -65%;
               z-index: -1;
             }
           }
@@ -453,7 +453,7 @@ body {
         h1 {
           /* font-family: "Cinzel Decorative"; */
           font-weight: 300;
-          font-box-shadow: 2rem;
+          /* font-box-shadow: 2rem; */
           color: rgba(58, 56, 57, 0.89);
         }
         p {
@@ -466,7 +466,7 @@ body {
           text-align: center;
           margin: 10% 0;
           img {
-            max-width: 150px;
+            max-width: 120px;
           }
           .rekening {
             h3 {
