@@ -1,7 +1,6 @@
 import "./App.css";
 import Pria from "./assets/ading.jpg";
 import Wanita from "./assets/iseh.jpg";
-import Home from "./assets/home.svg";
 import Carousel from "./components/Carousel";
 import Prewed1 from "./assets/prewed(4).jpg";
 import Prewed2 from "./assets/prewed(7).jpg";
@@ -76,7 +75,7 @@ function App() {
             <div className="container">
               <h3>The Wedding</h3>
               <div className="namaPengantin">
-                <h1>Ading &amp; Aisah</h1>
+                <h1>Ading &amp; Iseh</h1>
                 <div className="kepada">
                   <p>Sabtu, 07 September 2025</p>
                   <hr />
@@ -105,7 +104,7 @@ function App() {
               data-aos="fade-up"
               data-aos-delay="1100"
             >
-              Ading <span>&amp;</span> Aisah 
+              Ading <span>&amp;</span> Iseh
             </h1>
             <p data-aos="fade-up" data-aos-delay="800">
               “Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
@@ -185,7 +184,7 @@ function App() {
         <div className="bg-acara"></div>
         <div className="container4" data-aos="fade-up">
           <h1 data-aos="fade-up" data-aos-delay="100">
-            Ading & Aisah <br />
+            Ading & Iseh <br />
             Wedding
           </h1>
           <div className="acara-item" data-aos="fade-up" data-aos-delay="300">
@@ -334,7 +333,7 @@ function App() {
               Kami yang berbahagia
             </p>
             <h2 data-aos="fade-up" data-aos-delay="1000">
-              Ading & Aisah 
+              Ading & Iseh
             </h2>
             <div className="watermark">
               <a href="https://www.instagram.com/apiww.izz/">
