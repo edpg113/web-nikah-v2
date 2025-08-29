@@ -197,7 +197,7 @@ function App() {
             <p>Sabtu, 07 September 2025</p>
             <p>Pukul 12.00 WIB</p>
           </div>
-          <div className="acara-item" data-aos="fade-up" data-aos-delay="500">
+          <div className="acara-item" data-aos="fade-up" data-aos-delay="400">
             <h2>Lokasi</h2>
             <p>Rumah Mempelai Wanita</p>
             <p>Jl. Bojong Keji, Rt 05/10, Bogor</p>
