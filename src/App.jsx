@@ -6,9 +6,6 @@ import Carousel from "./components/Carousel";
 import Prewed1 from "./assets/prewed(4).jpg";
 import Prewed2 from "./assets/prewed(7).jpg";
 import Prewed3 from "./assets/prewed(8).jpg";
-import Prewed4 from "./assets/prewed(5).jpg";
-import Prewed5 from "./assets/prewed(3).jpg";
-import Prewed6 from "./assets/prewed(2).jpg";
 import Dana from "./assets/dana.png";
 import Seabank from "./assets/seabank.webp";
 import AOS from "aos";
@@ -18,7 +15,7 @@ import MusicPlayer from "./components/Musik";
 import Backsound from "./audio/backsound pernikahan.m4a";
 import { useRef, useState } from "react";
 
-const foto = [Prewed1, Prewed2, Prewed3, Prewed4, Prewed5, Prewed6];
+const foto = [Prewed1, Prewed2, Prewed3];
 
 function App() {
   const [isPlaying, setIsPlaying] = useState(false);
