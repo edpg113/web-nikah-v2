@@ -5,32 +5,46 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body {
   font-family: "Libertinus Serif Display", system-ui;
-  /* background-color: #f0f0f0; */
-  margin: 0;
-  padding: 0;
 }
 
 .App {
   width: 100%;
   max-width: 430px; /* ukuran “layar HP” */
   margin: 0 auto; /* center horizontal */
-  /* background: #fff; */
   min-height: 100vh; /* isi bisa nambah panjang */
+  .start {
+    margin: 0 auto;
+    width: 430px;
+    .bg-undangan {
+      width: 430px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+  .acara {
+    .bg-acara {
+      background: url("./assets/prewed(5).jpg");
+      filter: grayscale(1) brightness(0.9);
+      background-position: center;
+      background-size: cover;
+      height: 200px;
+      width: 430px;
+      position: absolute;
+      overflow: hidden;
+    }
+  }
 }
 
 @media screen and (min-width: 360px) {
   body {
     width: 100%;
     height: 100vh;
-    /* overflow: hidden; */
   }
 
   .start {
     position: fixed;
-    /* font-family: "Cinzel Decorative", cursive; */
     height: 100vh;
     overflow: hidden;
     display: flex;
@@ -54,7 +68,6 @@ body {
           text-align: center;
           padding-top: 100%;
           h3 {
-            /* font-family: "Cinzel Decorative"; */
             color: rgba(252, 252, 252, 0.925);
             font-weight: 500;
             font-size: 1.2rem;
@@ -69,12 +82,10 @@ body {
             font-size: 0.7rem;
             margin-top: 10px;
             letter-spacing: 1px;
-            /* font-family: "Poppins", sans-serif; */
           }
           .namaPengantin {
             h1 {
               color: rgba(255, 255, 255, 0.925);
-              /* font-family: "Cinzel Decorative", cursive; */
               font-size: 2rem;
               font-weight: 600;
               padding-top: 15%;
@@ -108,24 +119,20 @@ body {
 
   .quotes {
     .bg-quotes {
-      /* background: url("./assets/bingkai1.jpg"); */
       background: rgb(255, 255, 255);
       background-position: center;
       background-size: cover;
       height: 50vh;
-      /* overflow: hidden; */
       width: 100%;
       .container2 {
         text-align: center;
         padding-top: 30%;
         h1 {
-          /* font-family: "Cinzel Decorative"; */
           font-weight: 500;
           font-size: 1.5rem;
           color: rgba(58, 56, 57, 0.89);
         }
         span {
-          /* font-family: "Alex Brush", cursive; */
           font-weight: 600;
           font-size: 1.2rem;
           color: rgba(58, 56, 57, 0.89);
@@ -135,7 +142,6 @@ body {
         .namaPengantin2 {
           padding: 10% 0;
           font-size: 3rem;
-          /* font-family: "Alex Brush", cursive; */
           font-weight: 700;
           color: rgba(58, 56, 57, 0.89);
 
@@ -155,7 +161,6 @@ body {
   }
   .pengantin {
     .bg-pengantin {
-      /* background: url("./assets//bingkai2.jpg"); */
       background: rgb(248, 248, 248);
       background-position: center;
       background-size: cover;
@@ -165,7 +170,6 @@ body {
         text-align: center;
         padding-top: 10%;
         h1 {
-          /* font-family: "Cinzel Decorative"; */
           font-weight: 300;
           font-size: 1.5rem;
           color: rgba(58, 56, 57, 0.89);
@@ -212,12 +216,8 @@ body {
               .foto {
                 border-radius: 10px;
 
-                /* width: auto; */
                 border-radius: 10px;
-                /* height: auto; */
                 max-width: 100%;
-                /* object-fit: cover; */
-                /* position: absolute; */
                 filter: grayscale(1);
               }
             }
@@ -245,9 +245,7 @@ body {
 
     .bg-acara {
       background: url("./assets/prewed(5).jpg");
-      /* background: rgba(255, 255, 255, 0.623); */
       filter: grayscale(1) brightness(0.9);
-
       background-position: center;
       background-size: cover;
       height: 200px;
@@ -260,8 +258,6 @@ body {
       text-align: center;
       padding-top: 25%;
       h1 {
-        /* font-family: "Cinzel Decorative"; */
-        /* font-family: 'Alex Brush'; */
         font-weight: 300;
         font-size: 1.8rem;
         color: whitesmoke;
@@ -285,13 +281,11 @@ body {
       a {
         width: 120px;
         height: 40px;
-        /* background-color: rgba(150, 71, 104, 0.925); */
         color: white;
         border-radius: 10px;
         border: none;
         font-size: 0.7rem;
         margin-top: 10px;
-        /* font-family: "Poppins", sans-serif; */
       }
       button {
         width: 120px;
@@ -303,47 +297,34 @@ body {
         a {
           text-decoration: none;
           color: whitesmoke;
-
-          /* font-family: "Cinzel Decorative"; */
         }
       }
     }
   }
   .progress {
-    /* background: url("./assets/prewed(1).jpg"); */
-
-    /* background-position: center; */
-    /* background-size: cover; */
-    /* min-height: 100vh; */
-    /* background: rgba(255, 255, 255, 0); */
     background: rgb(248, 248, 248);
 
     width: 100%;
   }
 
   .progress .container-cerita {
-    /* backdrop-filter: grayscale(1) brightness(0.9); */
-
     text-align: center;
     padding: 20% 2% 10% 2%;
   }
 
   .progress .judul-undangan h1 {
-    /* font-family: "Cinzel Decorative"; */
     font-weight: 300;
     font-size: 2rem;
     color: rgba(58, 56, 57, 0.89);
   }
 
   .progress .judul-undangan p {
-    /* font-family: "Poppins"; */
     font-size: 0.8rem;
     letter-spacing: 1px;
     padding: 5% 5%;
     color: rgba(58, 56, 57, 0.89);
   }
 
-  /* Timeline */
   .timeline ul {
     padding: 2px 0;
     position: relative;
@@ -410,7 +391,6 @@ body {
 
   .galery {
     .bg-galery {
-      /* background: url("./assets/bingkai2.jpg"); */
       background-position: center;
       background: rgb(248, 248, 248);
 
@@ -421,7 +401,6 @@ body {
         text-align: center;
         padding-top: 20%;
         h1 {
-          /* font-family: "Cinzel Decorative"; */
           font-weight: 300;
           font-size: 2rem;
           color: rgba(58, 56, 57, 0.89);
@@ -436,7 +415,6 @@ body {
   }
   .gift {
     .bg-gift {
-      /* background: url("./assets/bingkai2.jpg"); */
       background-position: center;
       background: rgb(248, 248, 248);
 
@@ -447,9 +425,7 @@ body {
         text-align: center;
         padding-top: 20%;
         h1 {
-          /* font-family: "Cinzel Decorative"; */
           font-weight: 300;
-          /* font-box-shadow: 2rem; */
           color: rgba(58, 56, 57, 0.89);
         }
         p {
@@ -466,10 +442,8 @@ body {
           }
           .rekening {
             h3 {
-              /* font-family: "Cinzel Decorative"; */
               font-weight: 500;
               font-size: 1.2rem;
-              /* color: rgba(204, 159, 10, 0.925); */
               color: rgba(58, 56, 57, 0.89);
             }
           }
@@ -481,17 +455,14 @@ body {
     background: url("./assets/prewed(7).jpg");
     background-position: center;
     background-size: cover;
-    /* height: 100vh; */
     width: 100%;
     filter: grayscale(1) brightness(0.9);
     .bg-penutup {
-      /* width: 100%; */
       height: 100vh;
       .container7 {
         text-align: center;
         padding-top: 30%;
         h1 {
-          /* font-family: "Cinzel Decorative"; */
           font-weight: 300;
           font-size: 2rem;
           color: whitesmoke;
@@ -514,7 +485,6 @@ body {
           a {
             text-decoration: none;
             color: whitesmoke;
-            /* font-family: "Cinzel Decorative"; */
             font-weight: 300;
             font-size: 0.8rem;
           }
