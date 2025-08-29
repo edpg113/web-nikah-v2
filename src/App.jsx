@@ -182,7 +182,7 @@ function App() {
       {/* Rangkaian Acara */}
       <div className="acara">
         <div className="bg-acara"></div>
-        <div className="container4" data-aos="fade-up">
+        <div className="container4">
           <h1 data-aos="fade-up" data-aos-delay="100">
             Ading & Iseh <br />
             Wedding
@@ -192,12 +192,12 @@ function App() {
             <p>Sabtu, 07 September 2025</p>
             <p>Pukul 09.00 WIB</p>
           </div>
-          <div className="acara-item" data-aos="fade-up" data-aos-delay="400">
+          <div className="acara-item" data-aos="fade-up" data-aos-delay="330">
             <h2>Resepsi</h2>
             <p>Sabtu, 07 September 2025</p>
             <p>Pukul 12.00 WIB</p>
           </div>
-          <div className="acara-item" data-aos="fade-up" data-aos-delay="400">
+          <div className="acara-item" data-aos="fade-up" data-aos-delay="300">
             <h2>Lokasi</h2>
             <p>Rumah Mempelai Wanita</p>
             <p>Jl. Bojong Keji, Rt 05/10, Bogor</p>
