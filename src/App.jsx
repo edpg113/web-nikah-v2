@@ -76,7 +76,7 @@ function App() {
             <div className="container">
               <h3>The Wedding</h3>
               <div className="namaPengantin">
-                <h1>Ading &amp; Aisyah</h1>
+                <h1>Ading &amp; Aisah</h1>
                 <div className="kepada">
                   <p>Sabtu, 07 September 2025</p>
                   <hr />
@@ -105,7 +105,7 @@ function App() {
               data-aos="fade-up"
               data-aos-delay="1100"
             >
-              Ading <span>&amp;</span> Aisyah
+              Ading <span>&amp;</span> Aisah 
             </h1>
             <p data-aos="fade-up" data-aos-delay="800">
               “Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
@@ -188,7 +188,7 @@ function App() {
         <div className="bg-acara"></div>
         <div className="container4" data-aos="fade-up">
           <h1 data-aos="fade-up" data-aos-delay="200">
-            Ading & Aisyah <br />
+            Ading & Aisah <br />
             Wedding
           </h1>
           <div className="acara-item" data-aos="fade-up" data-aos-delay="400">
@@ -311,7 +311,7 @@ function App() {
             <div className="icon-bank" data-aos="fade-up" data-aos-delay="800">
               <img src={Bca} alt="BCA" />
               <div className="rekening">
-                <h3>Siti Aisyah</h3>
+                <h3>Siti Aisah</h3>
                 <h3>098-765-4321</h3>
               </div>
             </div>
@@ -337,7 +337,7 @@ function App() {
               Kami yang berbahagia
             </p>
             <h2 data-aos="fade-up" data-aos-delay="1000">
-              Ading & Aisyah
+              Ading & Aisah 
             </h2>
             <div className="watermark">
               <a href="https://www.instagram.com/apiww.izz/">
