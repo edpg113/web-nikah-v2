@@ -96,7 +96,7 @@ function App() {
       {/* Quotes */}
       <div className="quotes">
         <div className="bg-quotes">
-          <div className="container2" data-aos="fade-up" data-aos-delay="200">
+          <div className="container2">
             <h1 data-aos="fade-up" data-aos-delay="400">
               Save Our Date
             </h1>
@@ -187,21 +187,21 @@ function App() {
       <div className="acara">
         <div className="bg-acara"></div>
         <div className="container4" data-aos="fade-up">
-          <h1 data-aos="fade-up" data-aos-delay="200">
+          <h1 data-aos="fade-up" data-aos-delay="100">
             Ading & Aisah <br />
             Wedding
           </h1>
-          <div className="acara-item" data-aos="fade-up" data-aos-delay="400">
+          <div className="acara-item" data-aos="fade-up" data-aos-delay="300">
             <h2>Akad Nikah</h2>
             <p>Sabtu, 07 September 2025</p>
             <p>Pukul 09.00 WIB</p>
           </div>
-          <div className="acara-item" data-aos="fade-up" data-aos-delay="600">
+          <div className="acara-item" data-aos="fade-up" data-aos-delay="400">
             <h2>Resepsi</h2>
             <p>Sabtu, 07 September 2025</p>
             <p>Pukul 12.00 WIB</p>
           </div>
-          <div className="acara-item" data-aos="fade-up" data-aos-delay="610">
+          <div className="acara-item" data-aos="fade-up" data-aos-delay="500">
             <h2>Lokasi</h2>
             <p>Rumah Mempelai Wanita</p>
             <p>Jl. Bojong Keji, Rt 05/10, Bogor</p>
@@ -222,7 +222,7 @@ function App() {
             <h1 data-aos="fade-up" data-aos-delay="200">
               Cerita Cinta
             </h1>
-            <p data-aos="fade-up" data-aos-delay="400">
+            <p data-aos="fade-up" data-aos-delay="300">
               Banyak cerita yang kami lalui sehingga akhirnya kami bisa bersatu,
               cerita yang akan kami kenang selalu, dan cerita itu kami bagi
               untuk anda.
@@ -233,38 +233,38 @@ function App() {
             <ul>
               <li>
                 <div>
-                  <p data-aos="fade-zoom-in" data-aos-delay="400">
+                  <p data-aos="fade-zoom-in" data-aos-delay="200">
                     Pertama kali jumpa
                   </p>
-                  <span data-aos="fade-zoom-in" data-aos-delay="600">
+                  <span data-aos="fade-zoom-in" data-aos-delay="300">
                     <time>Diawal tahun 2020</time> saat itu pertamakali bertemu dijalan dan dipertemukan kembali di sebuah komunitas Sadulur
                   </span>
                 </div>
               </li>
               <li>
                 <div>
-                  <p data-aos="fade-zoom-in" data-aos-delay="400">
+                  <p data-aos="fade-zoom-in" data-aos-delay="200">
                     Mulai dekat
                   </p>
-                  <span data-aos="fade-zoom-in" data-aos-delay="600">
+                  <span data-aos="fade-zoom-in" data-aos-delay="300">
                     <time>Bulan Juli 2020</time> Disaat komunikasi buat acara kecurug Cisadane, disinilah kami mulai sering berbagi cerita satu sama lain dan kami mulai menjalin hubungan, ditahun 2021 sampai ditahun 2023 kami sempat berpisah dan kami bersatu kembali dan memutuskan untuk kejenjang yg lebih serius
                   </span>
                 </div>
               </li>
               <li>
                 <div>
-                  <p data-aos="fade-zoom-in" data-aos-delay="400">
+                  <p data-aos="fade-zoom-in" data-aos-delay="200">
                     Komitmen bersama
                   </p>
-                  <span data-aos="fade-zoom-in" data-aos-delay="600">
+                  <span data-aos="fade-zoom-in" data-aos-delay="300">
                     <time>Bulan Mei 2024</time> Kami memutuskan untuk tunangan, pertemuan kedua belah fihak keluarga
                   </span>
                 </div>
               </li>
               <li>
-                <div data-aos="fade-zoom-in" data-aos-delay="400">
+                <div data-aos="fade-zoom-in" data-aos-delay="200">
                   <p>Lamaran</p>
-                  <span data-aos="fade-zoom-in" data-aos-delay="600">
+                  <span data-aos="fade-zoom-in" data-aos-delay="300">
                     <time>08 Juni 2025</time> Menjadi momen bersejarah kami sepakat untuk mempertemukan kembali dua belah fihak keluarga untuk meminta doa restu dan menentukan pernikahan
                   </span>
                 </div>
