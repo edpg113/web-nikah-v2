@@ -202,7 +202,7 @@ function App() {
             <p>Pukul 12.00 WIB</p>
           </div>
           <div className="acara-item" data-aos="fade-up" data-aos-delay="650">
-            <img src={Home} alt="home" className="iconHome" />
+            <h2>Lokasi</h2>
             <p>Rumah Mempelai Wanita</p>
             <p>Jl. Bojong Keji, Rt 05/10, Bogor</p>
           </div>
