@@ -305,15 +305,17 @@ function App() {
             <div className="icon-bank" data-aos="fade-up" data-aos-delay="600">
               <img src={Dana} alt="Dana" />
               <div className="rekening">
-                <h3>Siti Aisah</h3>
-                <h3>085776089473</h3>
+                <h3>
+                  Siti Aisah <br /> 085776089473
+                </h3>
               </div>
             </div>
             <div className="icon-bank" data-aos="fade-up" data-aos-delay="800">
               <img src={Seabank} alt="Seabank" />
               <div className="rekening">
-                <h3>Siti Aisah</h3>
-                <h3>901943019899</h3>
+                <h3>
+                  Siti Aisah <br /> 901943019899
+                </h3>
               </div>
             </div>
           </div>
