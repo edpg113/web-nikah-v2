@@ -200,10 +200,10 @@ function App() {
           <div className="acara-item" data-aos="fade-up" data-aos-delay="300">
             <h2>Lokasi</h2>
             <p>Rumah Mempelai Wanita</p>
-            <p>Jl. Bojong Keji, Rt 05/10, Bogor</p>
+            <p>Kp. Bojong Keji, Rt 03/03, Bogor</p>
           </div>
           <button>
-            <a href="https://maps.app.goo.gl/gEJnAvN1uovBGu2E6" target="_blank">
+            <a href="https://maps.app.goo.gl/zb8kEWdsd9iscKkp6" target="_blank">
               Buka Lokasi
             </a>
           </button>
