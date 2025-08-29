@@ -151,7 +151,7 @@ function App() {
                   Ading
                 </h2>
                 <h3 data-aos="fade-up" data-aos-delay="400">
-                  Muhammad Herdiawan
+                  Muhammad Hendriawan
                 </h3>
                 <p data-aos="fade-up" data-aos-delay="600">
                   Putra Bungsu dari Pasangan
