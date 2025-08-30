@@ -77,7 +77,7 @@ function App() {
               <div className="namaPengantin">
                 <h1>Ading &amp; Iseh</h1>
                 <div className="kepada">
-                  <p>Sabtu, 07 September 2025</p>
+                  <p>Minggu, 07 September 2025</p>
                   <hr />
                   <p>Kepada Yth. Bapak/Ibu/Sdr/i</p>
                   <strong>{decodeURIComponent(namaTamu)}</strong>
@@ -189,12 +189,12 @@ function App() {
           </h1>
           <div className="acara-item" data-aos="fade-up" data-aos-delay="300">
             <h2>Akad Nikah</h2>
-            <p>Sabtu, 07 September 2025</p>
+            <p>Minggu, 07 September 2025</p>
             <p>Pukul 09.00 WIB</p>
           </div>
           <div className="acara-item" data-aos="fade-up" data-aos-delay="330">
             <h2>Resepsi</h2>
-            <p>Sabtu, 07 September 2025</p>
+            <p>Minggu, 07 September 2025</p>
             <p>Pukul 12.00 WIB</p>
           </div>
           <div className="acara-item" data-aos="fade-up" data-aos-delay="300">
